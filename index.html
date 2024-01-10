@@ -7,6 +7,7 @@
     <title>Pari o Dispari</title>
 
     <script defer src="js/palindroma.js"></script>
+    <script defer src="js/pariodispari.js"></script>
 </head>
 
 <body>
@@ -18,10 +19,14 @@
             <p class="result"></p>
         </form>
     </section>
-    <section id="pariedispari">
+    <section id="pariodispari">
         <form>
             <h2>Pari e Dispari</h2>
-            <input type="text">
+            <input type="number" min="1" max="5">
+            <select id="pariodispari">
+                <option value="even">Pari</option>
+                <option value="odd">Dispari</option>
+            </select>
             <button>Gioca</button>
             <p class="result"></p>
         </form>
